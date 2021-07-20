@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Page Title</title>
+</head>
+<body>
+ 
+<h1 style="text-align:center; font-family:courier; background-color:#7b0000; color:white">ITS Project </h1>
+<p style="text-align:center;font-family:courier; background-color:#f6f1df
+;">Group 1: Christina Kunrath, Caroline Lechner, Antonia Schmitzer </p>
+ 
+<h2> <a href="https://moulinrougemusical.com/australia/home/">Moulin Rouge</a>; </a>; <a href="https://semprelibera.altervista.org/giuseppe-verdi/la-traviata/la-traviata-trama/">La Traviata</a>; <a href="https://www.britannica.com/biography/Giuseppe-Verdi">Giuseppe Verdi</a></h2>
+<img src="https://cdn.concreteplayground.com/content/uploads/2018/07/Moulin-Rouge-the-Musical_FB-1920x1080.jpg" width="450" height="333">
+ 
+<img src="http://www.startemilia.it/wp-content/uploads/2016/09/Traviata-16-9-2.jpg" width="450" height="333">
+ 
+<img src="https://www.parmawelcome.it/wp-content/uploads/2019/08/Giuseppe-Verdi-674x438.jpg" width="450" height="333">
+ 
+<h2 Style = "color:#7b0000;"> 1. Annotation Part in Recogito; </h2>
+
+<h3>Moulin Rouge Text</h3>
+ 
+<p> The text "Moulin Rouge General" is about the musical Moulin Rouge by John Logan. Regarding to the annotations “Moulin Rouge” was annotated as “Information Object”. But in this point you have to pay attention to annotate it with the mentioned class in the right context. Therefore, the numerous events regarding the musical were annotated as "Information Realization". These included, for example, the premiere of the Musical, Stage Musical or previews. Moreover, the class “acro:TangibleCulturalProperty" was used very often. The production, the set and the costumes were annotated with this class and in the further step related to the responsible persons or producers. Furthermore, this class was also used for all the specific theaters in the text. It was also noticeable that very often locations or places and dates were annotated and those were very easy to relate with other classes. Which brings us to the next point: the relations. Therefore, locations were very often related to persons with the property "core:hasLocation". Furthermore, depending on the context, the two properties "event:place" and "event:agent" were applied many times. </p>
+ 
+<h3>La Traviata Texts</h3>
+ <p> The text “La Traviata by Giuseppe Verdi” gives a great historic overview about the development of the opera La Traviata. La Traviata means “the fallen woman” and the opera is accompanied with some of the most challenging and revered music in the entire soprano repertoire. Therefore, the annotation class “acro:InTangibleCulturalProperty" and “l0:Agent” were used very often. For those annotations like “Giuseppe Verdi” or “instrumentation” the properties “a-cd:hasAuthor” or “core:hasRole“ were mainly used. As the main focus of the play is on the heroine, which is the fallen woman, the class “foaf:person” was used quite often and in the next steps relations were made regarding to locations or name of the actors.<p>
+<p>In the textfile "La Traviata" there have been a lot of events to analyse. These could mostly be related to the year and the participating persons. Therefore, the annotation vocabulary "dul:InformationRealization", "foaf:Person" and "Tiapit:Timeinterval" has been used the most in the elaborated texts about the opera. Furthermore, countries and cultural places like “La Scala” and “London’s Royal Opera House” at which the events have been realized are mentioned several times in the text. Due to that fact, the annotation vocabulary “l0:Location” and “arco:TangibleCulturalProperty” plays an important role too in the analysed text. The class "roapit:Role" has also been used quite often. During the annotation of the relationship between the persons and their roles it appeared that it would be useful to specify the vocabulary of "Roles". With the bare connection of the operas participants and their roles it is not possible to identify if their real life's role or their role in the specific play is meant. Regarding the Properties the vocabulary “event:agent”, “event:place”, “event:time” and “core:hasRole” has been used the most. </p>
+<p>The text “La Traviata in Pop Culture” was mainly about comparisons between the plays Moulin Rouge, Pretty Woman and the play La Traviata. The opera La Traviata was created in 1852 by the Italian composer Guiseppe Verdi and used as inspiration for the other performances. But Verdi also used an inspiration, Alexandre Dumas' world premiere "La Dame auc Camelias", which took place at the Theatre du Vaudeville in Paris. There are many similarities between the plays, which are highlighted in the text. Therefore, properties such as "a-cd:isAuthorOf" "a-cd:isInspiredBy" „dc:hasTitle“ are often annotated to indicate which play belongs to which author and to indicate which piece was inspired by whom. Furthermore, "event:place" and "event:time" were used to better identify the premieres and the plays and their locations. The main classes used were "InformationObject", such as "La Traviata", "InformationRealization" for more prescient details such as the premieres and "arco:TangibleCulturalProperty" for the specific theatres as „Paris‘s Theatre du Vaudeville“ and "dul:InformationObject" for labelling the other plays such as Moulin Rouge/Pretty Woman.</p>
+In the textfile “A parade of stars in the arena for traviata” is clearly focused on the different actors and the roles they play. That is the reason why the classes “foaf:Person” and “roapit:Role” are by far the most used ones. These classes are connected with through the property “core:hasRole”.
+
+<h3>Texts about Giuseppe Verdi</h3>
+ <p>In the first text about the Italian composer Guiseppe Fortunino Francesco Verdi, all his pieces and their year of publication are listed to give an overview of his works. These pieces were each marked as "dul:InformationObject", the year of publication with "dcterms:date" and were each linked with the property "tiapit:atTime". All pieces were also linked to the composer Verdi with the property "a-cd:isAuthorOf". Furthermore, Verdi's career and private life was addressed. A major role played his employment in Busseto, where he taught and composed at the same time and then published the songs in 1838. Numerous parts like „Teaching and Composing“ and „published a set of songs“ but also private occasions like his wife’s death have been marked as a “core:Event” </p>
+<p>In the second textfile about the Italian composer Giuseppe Verdi the focus lies on his numerous opera writings. They mostly have been generally described with the year of creation. Therefore, the vocabulary “dul:InformatinObject” has been used a lot during the annotation process of these texts. Furthermore, the musicians who inspired Verdi are often highlighted in the text. That is the reason why the class “foaf:Person” and the property “a-cd:isInspiredBy” have often been annotated. Apart from this, there have been described several important social events of Verdi’s life such as the births of his children and his wedding. While annotating these text parts about the composer’s social occasions it appeared that it would be useful to create a specific vocabulary for private events due to the fact that there already exists a word specification for cultural occasions but not for the social ones yet. </p>
+
+<h2 Style = "color:#7b0000;"> 2. Transformation into Knowledge Graph</h2>
+<p>The annotated textfiles were transformed into a knowledge graph with the automatic transformation tool pyrml.  In this process, there have occurred some problems. At first, there have been some errors while loading the textfiles into pyrml. Those errors could easily be eliminated after a detailed analysation of the annotations. After the few double annotations of single words which have been found were removed and the vocabularies exact spelling was reviewed, the textfiles could be successfully transformed into CSV files.</p>
+<p>The biggest obstacle of the project was loading the CSV file in Protégé. With several computers each group member tried to open the CSV files in Protégé. Unfortunately, the file was always empty when the program was opened. No classes or properties occurred. After several days of trying, the loading into Protégé finally worked with one of the computers.  </p>
+
+<h2 Style = "color:#7b0000;">  3. Elaboration in Protégé</h2>
+ <p>As soon as the files were successfully loaded in Protégé, the different classes and properties have been optimized. All the connections to respective individuals have been summarized, so that every individual only occurred once in the graph. For example, the numerous different “Verdis” we have been annotating, were merged into one single Verdi.  Several individuals which have not been necessary have been deleted and others were optimized through the correction of the vocabulary used. In order to being able to create a clear knowledge graph, all the annotated information which was not directly exactly connected to cultural objects, persons, places or events, has been eliminated. As soon as each group member has been finished the elaboration part, the protégé files have been merged and elaborated once again all together.</p>
+<p>As an ontology extension, we created some new, more detailed vocabulary which was useful for the context of the annotated texts. First of all, we decided to create a more detailed vocabulary for the occasion “core:Event”. As already mentioned in the first paragraph about the annotation part in recogito, in the texts there have been discussed numerous cultural but also personal events. Due to the fact, that those two event types are so different, we created the new vocabulary “personalEvent” and “culturalEvent”. Furthermore, the vocabulary “roapit:Role” was used for the real roles of persons lifes like Verdis role as composer but also for the fictional roles in plays like “Violetta” in La Traviata which is just played. That is the reason why we created the additional vocabulary “occupationRole” for the concept that classifies the real job of a once existing person. </p>
+<p>After the optimization of the annotated classes and properties, the knowledge graph’s layout has been developed. We created a graph with all the classes, properties and individuals and located the parts which belonged together as close and clear to each other as possible. Even we already extracted the most important information of our annotations, it was still a huge amount of data which was challenging to create one clear knowledge graph. Due to the fact that the knowledge graph is that huge with an enormous amount of information, there has been created an additional graph without the class connection but with different colours which explain the classes in order to make the picture and its content more understandable for people which did not participate in the project.</p>
+<h2 Style = "color:#7b0000;"> 4. Website Creation</h2>
+<p>The website in hand which is describing and documenting our project has been created with HTML. As you can see, there have been inserted three pictures which visualize the three main topics of the project: Giuseppe Verdi, La Traviata and Moulin Rouge. Apart from that, there have been added some links which make it possible to get to another website of the respective three topics so that people can get more detailed information about the artist, the opera and the musical. The website contains main headings, under headings and the running texts which are shown in different sizes. The main headings are additionally marked with some dark red colour in order to stand out. For the group name, there has been used a different typeface. Furthermore, the group name and the title “ITS Project” have colour bars in the background.</p>
+<h2 Style = "color:#7b0000;"> 5. GitHub Repository</h2>
+<p>As a last step we created a GitHub repository for sharing the data, code and documentation of the project. It was easy to call an account and the repository into existence. For the documentation there has been created a new file named “project documentation” within the repository “ITS-Project-Group-1</p> 
+
+</body>
+</html>
+
+Wörter für Protégé: 
+Ereignis --> führt zu --> Ergebnis 
+
+
+Handlung wichtig für Leben des Autors etc. / wichtiges Ereignis 
+Geburtsort und Geburstag 
+Unterteilung in Drama/Musical/Oper etc. 
+Event Spezialisierung in Social and cultural event
+Rollen Spezialisierung -> im echten leben oder im stück
+Director of a musical or written by – auch als property
+Main characters 
+Movierole – occupation 
+
+Seite für Verdi: 
+<a href="url"> https://www.britannica.com/biography/Giuseppe-Verdi  </a> </p>
+
+Seite für La Traviata https://semprelibera.altervista.org/giuseppe-verdi/la-traviata/la-traviata-trama/
+
